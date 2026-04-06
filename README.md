@@ -3,7 +3,7 @@
   
   <br/>
   
-  # ScriptCraft V2: Premium AI Cinematic Generator
+  # ScriptCraft: Premium AI Cinematic Generator
   
   **Generate Hollywood-grade, perfectly formatted scripts and high-impact titles in seconds using Google Gemini AI.**
   
@@ -91,6 +91,3 @@ npm run dev
 
 ---
 
-<div align="center">
-  <i>"A 21 Dev Project."</i>
-</div>
