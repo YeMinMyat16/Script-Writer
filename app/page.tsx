@@ -31,7 +31,7 @@ export default function LandingPage() {
             Scriptcraft is Live
           </div>
           <h1 className="text-5xl md:text-8xl font-serif font-black tracking-tighter mb-6 bg-gradient-to-br from-white to-neutral-500 bg-clip-text text-transparent drop-shadow-2xl uppercase">
-            AI Story Generator
+            Story Generator
           </h1>
           <p className="text-lg md:text-2xl text-neutral-400 mb-10 max-w-2xl font-serif">
             Generate cinematic, perfectly-formatted Hollywood scripts in seconds. Choose your genre, set the tension, and let AI direct your imagination.
