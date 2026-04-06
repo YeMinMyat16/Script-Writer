@@ -1,42 +1,36 @@
-# Script Writer 🎬
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A modern, full-stack AI-powered script writing application that generates cinematic movie scripts based on your ideas.
+## Getting Started
 
-It features a stunning, premium dark-mode "Cinema Premiere" aesthetic, complete with script-like formatting, and fully configurable generation parameters.
+First, run the development server:
 
-![Dashboard Preview](SS/Screenshot%202026-04-06%20100057.png)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## ✨ Features
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **AI Story Generation:** Powered by Google's powerful Gemini AI perfectly structured into script format.
-- **Cinematic UI:** Beautiful glassmorphic dark-mode, glowing theatre-style elements, and dynamic Framer Motion animations.
-- **Highly Configurable Parameters:**
-  - **Genre:** Action, Sci-Fi, Horror, Romance, Mystery.
-  - **Scenes:** Choose the exact number of scenes / acts.
-  - **Ending:** Twist, Happy, Tragic, Ambiguous.
-  - **Pacing:** Control the length of the generated scenes.
-  - **Dialogue Focus:** Set the conversational density.
-  - **English Level:** Limit the AI's vocabulary from Simple up to Advanced.
-- **Modern Script Format:** Result output displays beautifully formatted scenes, dialogue focuses, and character interactions.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🛠️ Tech Stack
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- **Frontend:** React, TypeScript, Vite, Tailwind CSS, Framer Motion, Lucide Icons.
-- **Backend:** Python, FastAPI, Uvicorn, Google Gemini Generative AI.
+## Learn More
 
-## 🚀 How to Run Locally
+To learn more about Next.js, take a look at the following resources:
 
-### 1. Start the Backend
-1. Open a terminal and navigate to the `backend` directory.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Create a `.env` file in the root directory and add your Google Gemini API key:
-   ```env
-   GEMINI_API_KEY=your_google_api_key_here
-   ```
-4. Run the server: `python -m uvicorn main:app --reload`
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### 2. Start the Frontend
-1. Open a new terminal in the root directory.
-2. Install dependencies: `npm install`
-3. Start the Vite server: `npm run dev`
-4. Open the displayed URL in your browser to start writing!
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
